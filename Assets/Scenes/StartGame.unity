@@ -1011,6 +1011,7 @@ GameObject:
   - component: {fileID: 874394326}
   - component: {fileID: 874394325}
   - component: {fileID: 874394324}
+  - component: {fileID: 874394327}
   m_Layer: 5
   m_Name: SceneChangeFade
   m_TagString: Untagged
@@ -1096,6 +1097,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874394322}
   m_CullTransparentMesh: 1
+--- !u!114 &874394327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874394322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cdf44b76bbc7b4a91b8ff2f63daa8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &953420976
 GameObject:
   m_ObjectHideFlags: 0
