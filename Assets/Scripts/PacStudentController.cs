@@ -5,6 +5,7 @@ public class PacStudentController : MonoBehaviour
     // Start is called before the first frame update
     public Rigidbody2D RB2D;
     public float Speed;
+    public Animator Animata;
 
     Vector2 Movement = Vector2.zero;
     void Start()
@@ -17,6 +18,9 @@ public class PacStudentController : MonoBehaviour
     {
         Movement.x = Input.GetAxisRaw("Horizontal");
         Movement.y = Input.GetAxisRaw("Vertical");
+
+        Animata.SetFloat("Horizontal", Movement.x);
+        Animata.SetFloat("Vertical", Movement.y);
     }
 
     private void FixedUpdate()
