@@ -22,10 +22,10 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!started)
-        {
-            return;
-        }
+        //if (!started)
+        //{
+        //    return;
+        //}
 
         totalTime += Time.deltaTime;
         int intTime = (int)totalTime;
